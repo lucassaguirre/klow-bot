@@ -3,5 +3,5 @@ nixPkgs = ["nodejs_20", "chromium", "libnss3", "libatk1.0-0", "libatk-bridge2.0-
 
 [variables]
 PUPPETEER_SKIP_DOWNLOAD = "true"
-PUPPETEER_EXECUTABLE_PATH = "/nix/store/*/bin/chromium"
+PUPPETEER_EXECUTABLE_PATH = "/usr/bin/chromium"
 hola= "hola"
